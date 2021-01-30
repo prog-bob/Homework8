@@ -1,0 +1,253 @@
+{
+    "total_requests": 3216979,
+    "method_cnt": {
+        "T": 3166826,
+        "HEAD": 49971,
+        "Head": 3,
+        "OPTIONS": 39,
+        "PROPFIND": 94,
+        "DELETE": 1,
+        "get": 1,
+        "INDEX": 1,
+        "SEARCH": 1,
+        "FOO": 42
+    },
+    "top10_requests_ip": [
+        [
+            "193.106.31.130",
+            235209
+        ],
+        [
+            "198.50.156.189",
+            167812
+        ],
+        [
+            "5.112.235.245",
+            166722
+        ],
+        [
+            "5.114.231.216",
+            158258
+        ],
+        [
+            "5.113.18.208",
+            157674
+        ],
+        [
+            "91.218.225.68",
+            134375
+        ],
+        [
+            "79.62.229.212",
+            114799
+        ],
+        [
+            "149.56.83.40",
+            97533
+        ],
+        [
+            "5.114.64.184",
+            94043
+        ],
+        [
+            "5.113.216.211",
+            89125
+        ]
+    ],
+    "top10_longest_requests": [
+        {
+            "duration": "999904",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "5.114.64.184",
+            "time": "12:00:44"
+        },
+        {
+            "duration": "999856",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "97.77.104.19",
+            "time": "01:22:20"
+        },
+        {
+            "duration": "99984512",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "182.58.98.58",
+            "time": "11:58:20"
+        },
+        {
+            "duration": "999820",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "104.45.17.241",
+            "time": "00:55:14"
+        },
+        {
+            "duration": "9998100",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "80.241.32.138",
+            "time": "04:47:31"
+        },
+        {
+            "duration": "999804",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "129.6.222.99",
+            "time": "21:28:14"
+        },
+        {
+            "duration": "99968",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "5.113.35.73",
+            "time": "11:03:49"
+        },
+        {
+            "duration": "99968",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "5.112.66.178",
+            "time": "16:36:45"
+        },
+        {
+            "duration": "99968",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "5.112.235.245",
+            "time": "07:08:35"
+        },
+        {
+            "duration": "99968",
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "ip": "5.112.235.245",
+            "time": "07:26:10"
+        }
+    ],
+    "top10_client_err": [
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.139.33"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.139.33"
+        },
+        {
+            "method": "T",
+            "url": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "code": "404",
+            "ip": "1.0.139.33"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.176.215"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.176.215"
+        },
+        {
+            "method": "T",
+            "url": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "code": "404",
+            "ip": "1.0.176.215"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.176.241"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.176.241"
+        },
+        {
+            "method": "T",
+            "url": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "code": "404",
+            "ip": "1.0.176.241"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "404",
+            "ip": "1.0.176.39"
+        }
+    ],
+    "top10_server_err": [
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "661",
+            "ip": "1.0.176.59"
+        },
+        {
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "code": "764",
+            "ip": "1.0.178.41"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "805",
+            "ip": "1.0.179.9"
+        },
+        {
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "code": "635",
+            "ip": "1.0.180.13"
+        },
+        {
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "code": "550",
+            "ip": "1.0.180.237"
+        },
+        {
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "code": "601",
+            "ip": "1.0.181.109"
+        },
+        {
+            "method": "T",
+            "url": "/wp-login.php",
+            "code": "855",
+            "ip": "1.0.182.84"
+        },
+        {
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "code": "655",
+            "ip": "1.0.183.4"
+        },
+        {
+            "method": "T",
+            "url": "/apache-log/access.log",
+            "code": "875",
+            "ip": "1.0.188.61"
+        },
+        {
+            "method": "T",
+            "url": "/blog/robots.txt",
+            "code": "689",
+            "ip": "1.0.189.243"
+        }
+    ]
+}
